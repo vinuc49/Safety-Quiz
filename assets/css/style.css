@@ -14,12 +14,39 @@ body {
 	font-weight: bold;
 	text-align: center;
 }
+.menu-bar {
+	background: #443c3d;
+	text-align: right;
+}
 
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	font-size: 25px;
+	color: #fff;
+}
+
+.menu-bar ul li {
+	width: 100%;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu-bar ul li:hover {
+	background: #2bab0d;
+	border-radius: 10px;
+}
 #introduction-image {
     display: flex;
     height: 70vh;
     justify-content: center;
     align-items: center;
+	margin-top: -40px;
 }
 .introduction {
 	height: 85%;
@@ -31,4 +58,29 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
+}
+/* footer */
+.social-media {
+	text-align: center;
+}
+
+.social-media >li {
+	display: inline;
+}
+
+.social-media i {
+	font-size: 170%;
+	margin: 25px;
+	padding: 25px;
+	color: #3a3a3a;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.author {
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: small;
 }
