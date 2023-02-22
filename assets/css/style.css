@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 /* Global */
 * {
-	margin: 5;
+	margin: 0;
 	padding: 0;
 	border: none;
 	box-sizing: border-box;
@@ -41,6 +41,9 @@ body {
 	background: #2bab0d;
 	border-radius: 10px;
 }
+.heading {
+	margin: 10px;
+}
 #introduction-image {
     display: flex;
     height: 70vh;
@@ -77,10 +80,4 @@ body {
 
 .social-media a {
 	text-decoration: none;
-}
-
-.author {
-	text-align: center;
-	margin-bottom: 35px;
-	font-size: small;
 }
