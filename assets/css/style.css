@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 /* Global */
 * {
-	margin: 0;
+	margin: 5;
 	padding: 0;
 	border: none;
 	box-sizing: border-box;
@@ -9,8 +9,26 @@
 
 body {
 	font-size: 15px;
-	background-color: rgb(103, 113, 158);
+	background-color: rgb(233, 234, 241);
 	font-family: lato, sans-serif;
 	font-weight: bold;
 	text-align: center;
+}
+
+#introduction-image {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+.introduction {
+	height: 85%;
+	width: 90%;
+	position: relative;
+}
+.introduction img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
 }
