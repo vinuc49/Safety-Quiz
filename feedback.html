@@ -37,18 +37,39 @@
         </ul>
     </div>
     <div class="heading">
-        <h1>WELCOME TO WORKERS GENERAL SAFETY QUIZ</h1>
-        <h2>THE ASSESSMENT OF ALL THE RISK, DAMAGE, PREVENTION AND PROTECTION</h2>
+        <h1>WELCOME TO FEEDBACK PAGE</h1>
+        
     </div>
 
     <section id="introduction-image">
-        <div class="introduction">
-            <img src="./assets/images/safety.jpg" alt="safety-training">
-        </div>
-            </section>
-            <div class="buttons">
-                <button type="button" onclick="location.href='quiz.html';" value="start quiz" / >Start quiz</button>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            
+            <div>
+                <label for="fname"><strong>Name</strong></label>
+                <input class="form-input" id="fname" type="text" name="first_name" required>
             </div>
+            <div>
+                <label for="lname"><strong>Last Name</strong></label>
+                <input class="form-input" id="lname" type="text" name="last_name" required>
+            </div>
+            <div>
+                <label for="email"><strong>Email Address</strong></label>
+                <input class="form-input" id="email" type="email" name="email_address" required>
+            </div>
+                        <div>
+                <label for="message"><strong>Message</strong></label>
+                <br>
+                <textarea class="form-input" cols="58" rows="10" name="Message"
+                    placeholder="Your message"></textarea>
+                <br>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="location.href='quiz.html';" value="start quiz" / >Submit</button>
+            </div>
+        </form>
+    </section>
+            </section>
+          
 
     <footer>
         <ul class="social-media">
