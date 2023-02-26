@@ -54,7 +54,7 @@ body {
 }
 
 .heading {
-    margin: 10px;
+    margin: 1px;
 }
 
 #introduction-image {
@@ -73,6 +73,9 @@ body {
     align-items: center;
     background-image: url('../images/safety123.jpg');
     background-size: cover;
+}
+#quiz-container{
+    margin-top: 0px;
 }
 
 #feedback-image {
@@ -272,8 +275,8 @@ button:active {
     border-radius: 9px;
     box-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
     text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+    
 }
-
-#guest {
-    margin-bottom: 15px;
+textarea {
+    font-size: medium;
 }
