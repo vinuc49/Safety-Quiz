@@ -59,7 +59,7 @@ body {
 
 #introduction-image {
     display: flex;
-    height: 60vh;
+    height: 58.2vh;
     justify-content: center;
     align-items: center;
 
@@ -105,7 +105,7 @@ body {
     background: #443c3d;
     position: relative;
     height: 100px;
-    margin-top: 68px;
+    margin-top: 85px;
 
     clear: both;
 }
@@ -269,7 +269,7 @@ button:active {
     display: block;
     border: 1px solid #133944;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 25px;
     border-radius: 9px;
