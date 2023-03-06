@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    min-height: 100%;
+    min-height: 89.3%;
 }
 
 .menu-bar {
@@ -99,7 +99,9 @@ body {
     height: 66.7vh;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/safety123.jpg');
+    background-image: url('../images/mygif.gif');
+    background-position: right;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -134,7 +136,14 @@ body {
     background: #443c3d;
     position: relative;
     height: 100px;
-       clear: both;
+    clear: both;
+}
+.index-footer {
+    background: #443c3d;
+    position: relative;
+    height: 100px;
+    clear: both;
+    margin-top: 20px;
 }
 
 .social-media {
@@ -167,9 +176,9 @@ body {
 
 .questions {
     margin: 3rem auto;
-    width: 90vw;
+    width: 60vw;
     padding: 2rem;
-    background: rgba(236, 209, 147, 0.882);
+    background: #e9eaf1;;
     cursor: default;
     border-radius: 1rem;
 }
@@ -305,7 +314,7 @@ button:active {
     margin-bottom: 25px;
     border-radius: 9px;
     box-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
-    text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+    
 
 }
 
