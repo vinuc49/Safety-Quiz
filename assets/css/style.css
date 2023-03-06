@@ -244,7 +244,16 @@ button:active {
     background: lavender;
 }
 
-#scoreboard,
+#scoreboard{
+    width: 20rem;
+    background: rgba(230, 230, 250, 0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 0rem;
+    display: none;
+}
 #answerBank {
     width: 20rem;
     background: rgba(230, 230, 250, 0.77);
