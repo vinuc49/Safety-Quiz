@@ -57,20 +57,24 @@ body {
 .heading {
     margin: 1px;
 }
-.quiz-rule{
+
+.quiz-rule {
     justify-content: center;
     border-radius: 10px;
     background-color: whitesmoke;
     max-width: 100%;
     margin-bottom: 10px;
 }
+
 .quiz-rule h1 {
     font-size: 2em;
 }
+
 .quiz-rule ul {
     display: inline-block;
     margin: 10px;
 }
+
 .quiz-rule li {
     font-size: 15px;
     padding: 10px;
@@ -78,7 +82,7 @@ body {
     margin-left: 25px;
     list-style: none;
     text-align: justify;
-    
+
 }
 
 #introduction-image {
@@ -98,7 +102,8 @@ body {
     background-image: url('../images/safety123.jpg');
     background-size: cover;
 }
-#quiz-container{
+
+#quiz-container {
     margin-top: 0px;
 }
 
@@ -129,9 +134,7 @@ body {
     background: #443c3d;
     position: relative;
     height: 100px;
-    margin-top: 85px;
-
-    clear: both;
+       clear: both;
 }
 
 .social-media {
@@ -144,7 +147,7 @@ body {
 }
 
 .social-media i {
-    font-size:200%;
+    font-size: 200%;
     padding: 25px;
     color: rgb(233, 234, 241);
 }
@@ -299,8 +302,9 @@ button:active {
     border-radius: 9px;
     box-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
     text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
-    
+
 }
+
 textarea {
     font-size: medium;
 }
