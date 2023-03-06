@@ -19,6 +19,7 @@ body {
     font-family: lato, sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100%;
 }
 
 .container {
@@ -55,6 +56,29 @@ body {
 
 .heading {
     margin: 1px;
+}
+.quiz-rule{
+    justify-content: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.quiz-rule h1 {
+    font-size: 2em;
+}
+.quiz-rule ul {
+    display: inline-block;
+    margin: 10px;
+}
+.quiz-rule li {
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+    margin-left: 25px;
+    list-style: none;
+    text-align: justify;
+    
 }
 
 #introduction-image {
