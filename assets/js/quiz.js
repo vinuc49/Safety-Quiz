@@ -1,78 +1,78 @@
 //Question bank
 var questionBank = [{
-        question: 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option: ['Asia', 'Africa', 'Europe', 'Australia'],
-        answer: 'Africa'
+        question: 'What does COSHH stand for?',
+        option: ['Control of Substances Hazardous to Health', 'ACareful of Substances Harmful to Health', 'Control of Spillages Hazardous to Health', 'Control of Substances Hurtful to Health'],
+        answer: 'Control of Substances Hazardous to Health'
     },
     {
-        question: 'For which of the following disciplines is Nobel Prize awarded?',
-        option: ['Physics and Chemistry', 'Physiology or Medicine', 'Literature, Peace and Economics', 'All of the above'],
-        answer: 'All of the above'
+        question: 'What year did RIDDOR start?',
+        option: ['1990', '1995', '2000', '2005'],
+        answer: '1995'
     },
     {
-        question: 'Garampani sanctuary is located at',
-        option: ['Junagarh, Gujarat', 'Diphu, Assam', 'Kohima, Nagaland', 'Gangtok, Sikkim'],
-        answer: 'Diphu, Assam'
+        question: 'The accident book is a legal document that does what?',
+        option: ['The accident book is a legal document that does what?', 'Details risk assessments and safety rules.', 'Records the details of an accident in the workplace', 'Lists the first aid requirements of the workplace'],
+        answer: 'Records the details of an accident in the workplace'
     },
     {
-        question: 'For which of the following disciplines is Nobel Prize awarded?',
-        option: ['Physics and Chemistry', 'Physiology or Medicine', 'Literature, Peace and Economics', 'All of the above'],
-        answer: 'All of the above'
+        question: 'Which of the following statements is likely to result in an injury to the operator?',
+        option: ['Selecting the right tool for the job', 'Wearing safety goggles or glasses', 'Using a tool with loose handles', 'Keeping cutting tools sharp'],
+        answer: 'Using a tool with loose handles'
     },
     {
-        question: 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option: ['Asia', 'Africa', 'Europe', 'Australia'],
-        answer: 'Africa'
+        question: 'What does RIDDOR stand for?',
+        option: ['Risk of Injury, Diseases and Dangerous Occurrences Reporting', 'Reporting of Injuries, Diseases and Dangerous Occurrences Regulations', 'Reporting of Information on Diseases and Dangerous Occurrences Risk', 'Risk of Injuries, Diseases and Dangerous Occurrences Regulations'],
+        answer: 'Reporting of Injuries, Diseases and Dangerous Occurrences Regulations'
     },
     {
-        question: 'Garampani sanctuary is located at',
-        option: ['Junagarh, Gujarat', 'Diphu, Assam', 'Kohima, Nagaland', 'Gangtok, Sikkim'],
-        answer: 'Diphu, Assam'
+        question: 'What does PPE stand for?',
+        option: ['Protective Preventative Equipment', 'Personal Protective Equipment', 'Personal Preventative Equipment', 'Peoples Protective Equipment'],
+        answer: 'Personal Protective Equipment'
     },
     {
-        question: 'For which of the following disciplines is Nobel Prize awarded?',
-        option: ['Physics and Chemistry', 'Physiology or Medicine', 'Literature, Peace and Economics', 'All of the above'],
-        answer: 'All of the above'
+        question: 'Why is it important to wear PPE?',
+        option: ['Because it looks right', 'Because it protects the tools', 'Because it protects you', 'Because it is what an employer tells you to do'],
+        answer: 'Because it protects you'
     },
     {
-        question: 'Garampani sanctuary is located at',
-        option: ['Junagarh, Gujarat', 'Diphu, Assam', 'Kohima, Nagaland', 'Gangtok, Sikkim'],
-        answer: 'Diphu, Assam'
+        question: 'Which of the following describes a workplace health and safety hazard?',
+        option: ['Putting the wet floor sign up after mopping the floor', 'An unanswered health and safety question', 'An activity that cannot be insured', 'Something that might cause harm'],
+        answer: 'Something that might cause harm'
     },
     {
-        question: 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option: ['Asia', 'Africa', 'Europe', 'Australia'],
-        answer: 'Africa'
+        question: 'The legal responsibilities of an employer with regards to health and safety include what? ',
+        option: ['Charging employees for replacing damaged or lost PPE', 'Providing safe systems of work for all employees', 'Taking out additional insurances for dangerous work', 'AEnsuring that only one member of staff works on a dangerous job'],
+        answer: 'Providing safe systems of work for all employees'
     },
     {
-        question: 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option: ['Asia', 'Africa', 'Europe', 'Australia'],
-        answer: 'Africa'
+        question: 'What is the first action to take when approaching the scene of an accident?',
+        option: ['Check for signs of life.', 'Wait for the emergency services.', 'Attend to the most serious injury', 'AMake sure the area is safe to enter.'],
+        answer: 'AMake sure the area is safe to enter.'
     },
     {
-        question: 'For which of the following disciplines is Nobel Prize awarded?',
-        option: ['Physics and Chemistry', 'Physiology or Medicine', 'Literature, Peace and Economics', 'All of the above'],
-        answer: 'All of the above'
+        question: 'What is the best way of dealing with a hazard to ensure others are not put at risk?',
+        option: ['Remove it immediately', 'Leave it for others to sort out.', 'Place a barrier tape around it.', 'Display a notice or warning sign'],
+        answer: 'Remove it immediately'
     },
     {
-        question: 'Hitler party which came into power in 1933 is known as',
-        option: ['Labour Party', 'Nazi Party', 'Ku-Klux-Klan', 'Democratic Party'],
-        answer: 'Nazi Party'
+        question: 'What are the safe systems of work, provided by an employer, designed to do?',
+        option: ['They only help make the job quicker.', 'They only help to stop employees from having accidents.', 'They only help stop employees and all others from having accidents.', 'They only help prevent visitors from having accidents.'],
+        answer: 'They only help stop employees and all others from having accidents.'
     },
     {
-        question: 'For which of the following disciplines is Nobel Prize awarded?',
-        option: ['Physics and Chemistry', 'Physiology or Medicine', 'Literature, Peace and Economics', 'All of the above'],
-        answer: 'All of the above'
+        question: 'Which of the following is the best method of finding information on workshop equipment?',
+        option: ['From the health and safety at work manual', 'From the manufacturers handbook or technical data', 'By discussing it with a senior colleague', 'By contacting the original supplier of the equipment'],
+        answer: 'From the manufacturers handbook or technical data'
     },
     {
-        question: 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option: ['Asia', 'Africa', 'Europe', 'Australia'],
-        answer: 'Africa'
+        question: 'Which of the following would prevent injuries from occurring at work?',
+        option: ['Keeping the workplace tidy', 'Wearing light clothing', 'Lifting heavy objects with a bent back', 'Keeping lighting to a minimum'],
+        answer: 'Keeping the workplace tidy'
     },
     {
-        question: 'First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in',
-        option: ['1967', '1968', '1958', '1922'],
-        answer: '1967'
+        question: 'What type of training is most likely to reduce back injuries when handling materials and loads?',
+        option: ['1st aid training', 'Forklift truck training', 'Weight training', 'Manual handling training'],
+        answer: 'Manual handling training'
     }
 ]
 
