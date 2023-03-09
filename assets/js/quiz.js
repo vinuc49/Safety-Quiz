@@ -74,7 +74,7 @@ var questionBank = [{
         option: ['1st aid training', 'Forklift truck training', 'Weight training', 'Manual handling training'],
         answer: 'Manual handling training'
     }
-]
+];
 
 var question = document.getElementById('question');
 var quizContainer = document.getElementById('quiz-container');
@@ -121,12 +121,12 @@ function nextQuestion() {
     } else {
         points.innerHTML = score + '/' + questionBank.length;
         quizContainer.style.display = 'none';
-        scoreboard.style.display = 'block'
+        scoreboard.style.display = 'block';
     }
 }
 
 //click events to next button
-next.addEventListener('click', nextQuestion);
+next.addEventListener('click',nextQuestion);
 
 //Back to Quiz button event
 function backToQuiz() {

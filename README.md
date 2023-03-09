@@ -1,108 +1,230 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# WORKERS GENERAL SAFETY QUIZ
 
-Welcome vinuc49,
+Health and safety laws apply to all employers, self-employed people and employees in their workplaces. This includes fixed-term employees and temporary employees.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Risk assessment and safety statement
+ Every employer must carry out a workplace risk assessment to:
+ * Identify any hazards in the workplace
+ * Assess the risks arising from such hazards
+ * Identify the steps to be taken to deal with any risks
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+ The purpose of this website is to promote the employer must also prepare a safety statement, based on the risk assessment. The statement should include details of people in the workforce who are responsible for safety issues. Employees should have access to this statement and employers should review it regularly.
 
-## Gitpod Reminders
+A live website can be found [here](https://vinuc49.github.io/Safety-Quiz/).
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![WELCOME TO WORKERS GENERAL SAFETY QUIZ IMAGE](assets/readme-images/safety-ami.PNG)
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+ ### General
 
-Another blue button should appear to click: _Open Browser_.
+ * Responsive design across all device sizes.
+ * Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the users.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+ ### Header
 
-Another blue button should appear to click: _Open Browser_.
+  ![Header image](assets/readme-images/header.PNG)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ * The header contains the fully responsive navigation bar positioned across the top  right of the screen.
 
-To log into the Heroku toolbelt CLI:
+ * The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to  
+   provide feedback to the customer for a better user experience.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ ### Footer
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  ![Footer image](assets/readme-images/footer.PNG)
 
-------
+  * The footer Contains a link to the business' social media channels.
 
-## Release History
+### Home Page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* **Main image**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  ![Main image](assets/readme-images/main-image.PNG)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+   - An image of providing instruction to the employees is included with a focus to attract the attention of the user. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* **Instruction to Quiz**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  ![Instruction section image](assets/readme-images/instruction.PNG)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+   - Contains a text provides instruction to the quiz and below that a button "start quiz" is given to direct the user to the quiz page.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Quiz Page
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Quiz section image](assets/readme-images/quiz-section.PNG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+ -  The section contains question banks. The page has question with 3 to 4 options to select answer. The page also has skip button. Once the user click the skip button, the next question will appear until it reach to question 15.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ ![Scoreboard image](assets/readme-images/scoreboard.PNG)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ -  After completing 15 questions, a score box will appear. that will highlight the users on how many answers are correct. below that a try again button which will redirect the user to question bank 1 and a Back to home button which will redirect the user to hoome page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Feedback Page
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ ![Feedback form image](assets/readme-images/feedback.PNG)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ - Include feedback form that provides the user the ability to provide comments and feedback about the quiz and a Submit buttons.
+ - The form use the method="POST" action="https://formdump.codeinstitute.net/"
+ - I use the option of placeholder for full name and email address.
+ - If the user tries to submit the form without any message a pop up will appear to alert user to provide feedback.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[Back to top ⇧](#WORKERS-GENERAL-SAFETY-QUIZ) 
 
-------
+## Technologies Used
 
-## FAQ about the uptime script
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-**Why have you added this script?**
+### Frameworks, Libraries and Programs Used
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to import the fonts oswald and lotto into the style.css file. These fonts were used throughout the site.
 
-**How will this affect me?**
+* [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* [photopea](https://www.photopea.com/)
+    - Photopea was used to reduce the file size of the images for the website.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* [GitPod](https://gitpod.io/)
+     - GitPod was used for writing code, committing, and then pushing to GitHub.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing.
 
-**So….?**
+* [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* [Am I Responsive?](http://ami.responsivedesign.is/#)
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-**Can I opt out?**
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
 
-**Anything more?**
+* [Jshint Validator](https://jshint.com/) 
+    - was used to validate JavaScript code used in the proejct.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Testing
 
----
+## Testing using tools
+### Google Developer Tools
+Google developer tools (Chrome DevTools) was used as debugging tools. Every elements that was added in HTML CSS style and Javascript was inspected and debugged until I was happy with. Once satisfied, the code was copied from Chrome DevTools and paste in the CSS style sheet.
 
-Happy coding!
+
+### Responsive Tools
+
+In order to make sure that design web pages are responsive to all device sizes, [Am I Responsive](http://ami.responsivedesign.is/) site was used to check it. 
+
+### W3C Validator Tools
+
+[W3C Markup](https://validator.w3.org/#validate_by_input+with_options) was used to check for any errors within my HTML pages.
+
+ ![W3C syntex error image](assets/readme-images/w3cindex-error.PNG)
+
+ - W3C Markup Validator found an warning concerning Section lacks heading. The section tag was replaced for a div tag to correct this. 
+
+ ![W3C syntex error solve image](assets/readme-images/w3cindex-error-solve.PNG)
+       
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) found no errors or warnings on my CSS.
+  ![W3C CSS Validation](assets/readme-images/css-validator.PNG)
+
+  [Jshint validation](https://jshint.com/) was used to validate JavaScript code used in the proejct.
+ - It identified error which is missing semicolons in many lines
+ ![Jshint Validation](assets/readme-images/js-validator.PNG)
+ - The identified error was corrected by adding semicolon in the JS code.
+ ![Jshint Validation](assets/readme-images/js-validator-solve.PNG)
+
+## Manual Testing
+
+I have tested my site on multiple devices. These include:
+  - Galaxy S5 (360 x 640)
+  - iPhone 6/7/8 (375 x 667) 
+  - iPhone 6/7/8 plus (414 x 736)
+  - ipad (768 x 1024)
+  - iPhone XS Max
+  - iPad Pro (1024 x 1366)
+  - Huawei P20 Pro
+  - HP laptop (1980 x1080)
+
+## Accessibility
+
+ * Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+
+ * Lighthouse reports
+
+    - **Home Page**
+
+    ![Lighthouse report for home page image](assets/readme-images/index-lighthouse.PNG)
+
+    - **quiz Page**
+
+    ![Lighthouse report for menu page image](assets/readme-images/quiz-lighthouse.PNG)
+
+    - **feedback Page**
+
+    ![Lighthouse report for book now page image](assets/readme-images/feedback-lighthouse.PNG)
+
+## All 3 pages:
+ 
+ - **Navigation Bar**
+
+            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the users.
+
+            - Clicking on the navigation bar's links will bring the users to the specified page.
+        
+- **Footer**
+        
+            - Clicking on the social media links will open the specific website on a new tab.
+
+# Deployment
+
+* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### GitHub Pages
+
+* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/vinuc49/Safety-Quiz).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+    3. Scroll down the Settings page until you locate the Pages section.
+
+    4. Under Source, click the dropdown called None and select Master Branch.
+
+    5. The page will refresh automatically and generate a link to your website.
+
+Visit the deployed website [here](https://vinuc49.github.io/Safety-Quiz/).
+
+## Credits 
+
+### Media
+
+* [Google images](https://www.google.com/imghp?hl=EN)
+
+    - For all images used in the website
+
+### Code
+
+* The code to make the social media links and font color code was taken from the CI **love running** project 
+* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+
+
+
+## Acknowledgements
+
+* I would like to thank my tutor, Marcel, for his constructive feedback and guidance.
+
+* Code Institute for providing great course content and necessary information to complete this project.
+
+* I would like to thank my friend and partner, for their ideas and support through out the project.
